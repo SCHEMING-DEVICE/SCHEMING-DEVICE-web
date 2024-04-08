@@ -25,3 +25,4 @@ it('should render the Home header', () => {
 });
     });
 });
+
