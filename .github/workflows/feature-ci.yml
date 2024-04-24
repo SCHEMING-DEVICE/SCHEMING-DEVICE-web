@@ -19,8 +19,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "16.x"
-      - name: Install dependecies (npm)
-        run: npm install --save-dev @babel/plugin-transform-private-property-in-object
+      - name: install dependecies (npm)
+        run: npm install @babel/preset-react@latest --save-dev
       - name: build
         run: npm run build
       - name: test
