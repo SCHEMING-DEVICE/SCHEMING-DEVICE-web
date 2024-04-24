@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: "16.x"
       - name: Install dependecies (npm)
-        run: npm install --save-dev @babel/plugin-proposal-private-property-in-object
+        run: npm install
       - name: build
         run: npm run build
       - name: test
