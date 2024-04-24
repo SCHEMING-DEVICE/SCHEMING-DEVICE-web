@@ -8,7 +8,7 @@ function OrderDetail() {
 
 return (
     <div>
-        <h3>order name: {order?. user.name}</h3>
+        <h3>order name: {order?.user.name}</h3>
     </div>
 );
 }
